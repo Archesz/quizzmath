@@ -7,6 +7,7 @@ import data from '../data/cards.json'
 
 const cards = data["Cards"]
 const passed = []
+let count = 0
 
 function generateCard(){
 
@@ -36,6 +37,7 @@ function Componentes() {
     return (
         <div className="container">
             
+
             <div className="card-area" id="card-area">
 
             </div>
