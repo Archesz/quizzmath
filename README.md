@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Quizzmath
+Aplicação para Criar e Jogar Quizzes de Flashcards de Matemática
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Quizzmath é uma aplicação desenvolvida com React para criar e jogar quizzes de flashcards focados em conceitos de matemática. É uma ferramenta ideal para estudantes que desejam revisar e reforçar seu conhecimento em tópicos específicos de matemática através de uma abordagem interativa e divertida.
 
-## Available Scripts
+## Funcionalidades
+- Criação de Flashcards: Crie seus próprios flashcards com perguntas e respostas matemáticas.
+- Customização de Quizzes: Monte quizzes personalizados escolhendo os flashcards que deseja incluir.
+- Modo de Revisão: Reveja os flashcards após completar o quiz para consolidar o aprendizado.
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
+- Frontend: React.js - Framework JavaScript para construção da interface de usuário.
+- State Management: Redux - Biblioteca para gerenciamento de estado da aplicação.
+- Styling: SCSS - Biblioteca para estilização de componentes.
 
-### `npm start`
+## Como Executar o Projeto
+1. Clone o Repositório
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/seu_usuario/quizzmath.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Instale as Dependências
 
-### `npm test`
+```bash
+cd quizzmath
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Execute o Servidor
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Acesse a Aplicação
+Abra o navegador e acesse http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Exemplos de Uso
+- Exemplo 1: Criando um Quiz de Equações Algébricas
+- Exemplo 2: Revisão de Flashcards de Geometria
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuição
+Contribuições são sempre bem-vindas! Para contribuir com o Quizzmath, siga os passos abaixo:
 
-### `npm run eject`
+1. Faça um fork do repositório.
+2. Crie uma nova branch para sua feature (git checkout -b feature-nome-da-feature).
+3. Faça commit das suas alterações (git commit -m 'Adiciona nova feature').
+4. Envie para o repositório remoto (git push origin feature-nome-da-feature).
+5. Abra um Pull Request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença
+Este projeto está licenciado sob a MIT License.
